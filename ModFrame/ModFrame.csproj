@@ -7,11 +7,11 @@
     <ProjectGuid>{F9B815D6-6EF4-44DB-9A0F-436849B24670}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ModFrame</RootNamespace>
-    <AssemblyName>ModFrame</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RootNamespace>Bow_Disabler</RootNamespace>
+    <AssemblyName>Bow_Disabler</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <LangVersion>9</LangVersion>
+    <LangVersion>10</LangVersion>
 	<Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
@@ -79,7 +79,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ModCore.cs" />
+    <Compile Include="BowDisabler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
