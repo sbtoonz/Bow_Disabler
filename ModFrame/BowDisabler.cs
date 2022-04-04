@@ -93,6 +93,13 @@ namespace Bow_Disabler
                 {
                     recipe.m_enabled = !disableBows.Value;
                 }
+                if (recipe.m_item.m_itemData.m_shared.m_itemType == ItemDrop.ItemData.ItemType.Ammo)
+                {
+                    if (recipe.m_item.m_itemData.m_shared.m_name.Contains("Arrow"))
+                    {
+                        recipe.m_enabled = !disableBows.Value;
+                    }
+                }
             }
             objectDB.m_recipes = templist;
         }
